@@ -6,6 +6,7 @@
 
 body {
     font-family: Roboto, Raleway, sans-serif;
+    color: #212121;
 }
 
 .link {
@@ -14,6 +15,19 @@ body {
 
 .list {
     list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .header-logo-part1 {
@@ -102,7 +116,8 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
-    
+    cursor: pointer;
+
 }
 
 .main-title-btn:hover {
@@ -201,6 +216,14 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.address-mail:hover {
+    color: #2196F3;
+}
+
+.address-mail:hover {
+    color: #2196F3;
+}
+
 .address-tel {
     font-weight: 400;
     font-size: 14px;
@@ -208,6 +231,17 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.address-tel:hover {
+    color: #2196F3;
+}
+
+.address-tel:hover {
+    color: #2196F3;
+}
+
+ /*------portfolio--------*/
+
 
 .main-portfolio-btn {
     font-family: 'Roboto';
@@ -217,7 +251,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-   
+    cursor: pointer;
 }
 
 .main-portfolio-btn:hover {
@@ -231,3 +265,20 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
+.portfolio-title-h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-h3);
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--description-p);
+}
+
